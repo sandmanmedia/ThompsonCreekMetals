@@ -1,0 +1,145 @@
+body {
+
+}
+
+/* ================================== TOP SURROUND ================================ */
+
+.custom.top-bar {
+  float: right;
+}
+
+.fixed-stock-quotes{
+	text-align: right;
+}
+
+
+/* ================================== NAVIGATION ================================ */
+
+#rt-navigation {
+	background: #004c81;
+
+	.gf-menu.l1 {
+		display: table;
+		width: 100%; 
+
+		> li {
+			background: #004c81;
+			display: table-cell;
+			width: 12%;
+			text-align: center;
+			
+			> .item {
+				text-align: center;
+			}
+		} 
+
+	}
+
+}
+
+
+/* ================================== SHOWCASE ================================ */
+
+.showcasePicture {
+	background: cover; 
+}
+
+.showcaseText {
+	margin-top: 16%;
+	margin-left: 10%;
+	font-weight: bold;
+
+	text-shadow: none;
+
+	.northAmerican-text {
+		color: white;
+		font-size: 350%;
+		padding-bottom: 5px;
+	}
+
+	.miningcompanyText {
+
+		color: white;
+		font-size: 400%;
+		padding-bottom: 5px;
+	
+	}
+
+	.moreDetails-text {
+		color: #fac11c;
+		font-size: 200%;
+		border-style: solid;
+		padding: 12px;
+		border-width: 5px;
+	}
+	.moreDetails-text:hover {
+
+	}
+
+}
+
+#rt-showcase {
+	background:url("showcase1.jpg") no-repeat center;
+	background-size: 100% 100%;
+	height:600px;
+	
+}
+
+/* ================================== MAIN CONTENT ================================ */
+
+ul.actions .pdf-icon a:before{
+	font-family: FontAwesome;
+	content:"\f156";
+}
+
+@media (max-width: 767px) {
+	.fixed-stock-quotes{
+		text-align: center;
+	}
+}
+
+/* ================================== FOOTER ================================ */
+
+#rt-footer {
+	background-color: #1d1c1a;
+	color: #cfcfcf;
+}
+
+/* 
+	title is located in the content of the module and styled here
+	module title matches but is hidden
+*/ 
+.footerModuleTitle {
+	font-weight: bold;
+	font-size: 150%;
+	color:white; /* color for text below #cfcfcf */ 
+
+}
+
+/*
+	twitter widget has an extra 12px invisible border around the content
+	to compensate for it i've added padding-top to the content of modules next to it
+*/
+.footerContentMarginFix {
+	padding-top: 12px;
+	padding-bottom: 5%;
+}
+
+/*
+	class is in newsletter module
+*/
+.subscribeButton {
+	padding:5%;
+	font-size:125%;
+	color:black;
+	background-color: #fac11c;
+}
+
+/* ================================== COPYRIGHT ================================ */
+
+#rt-copyright {
+	font-size: 75%;
+	font-weight: bold;
+	background-color: #191816;
+}
+
